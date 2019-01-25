@@ -10,14 +10,14 @@ header{
 	min-height: 668px;
 	background-repeat: repeat-x;
 	position: relative;
-	font-family: BebasRegular; 
+	font-family: "BebasRegular"; 
 }
 header a{
 	color: #fff;
 	text-decoration: none;
 }
 .top_addr a{
-	font-family: BebasBold;
+
 	font-style: 21px;
 	border-bottom: #fff dashed 1px;
 } 
@@ -31,6 +31,7 @@ header a{
 	background-color: rgba(0, 0, 0, 0.6);
 }
 .top_addr{
+	font-family: "BebasBold";
 	padding-left: 60px;
 	background-image: url(img/map.png);
 	background-repeat: no-repeat;
