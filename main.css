@@ -36,6 +36,7 @@ header a{
 	background-image: url(img/map.png);
 	background-repeat: no-repeat;
 	background-position: center left;
+	line-height: 20px; 
 }
 .top_addr strong{
 	
