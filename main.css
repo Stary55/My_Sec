@@ -30,6 +30,7 @@ header{
 	display: block;
 	text-transform: uppercase;
 	color: #d12f22;
+	font-weight: normal;
 }
 
 .clearfix:after {
