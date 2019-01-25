@@ -28,6 +28,7 @@ header{
 	background-position: center left;
 }
 .top_addr strong{
+	padding-top: 20px;
 	display: block;
 	text-transform: uppercase;
 	color: #d12f22;
