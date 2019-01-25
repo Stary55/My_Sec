@@ -12,8 +12,8 @@ header{
 	position: relative;
 	font-family: BebasRegular; 
 }
-.top_addr a{
-	color: #fff;
+header a{
+	color: white;
 }
 .top_line{
 	min-height: 97px;
