@@ -10,6 +10,7 @@ header{
 	min-height: 668px;
 	background-repeat: repeat-x;
 	position: relative;
+	font-family: BebasRegular; 
 }
 .top_line{
 	min-height: 97px;
