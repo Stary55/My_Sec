@@ -12,6 +12,9 @@ header{
 	position: relative;
 	font-family: BebasRegular; 
 }
+header a{
+	color: #fff;
+}
 .top_line{
 	min-height: 97px;
 	-webkit-box-shadow: rgba(255,255,255,.3)0 0 0 1px;
