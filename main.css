@@ -12,7 +12,7 @@ header{
 	position: relative;
 	font-family: BebasRegular; 
 }
-header a{
+.top_addr a{
 	color: #fff;
 }
 .top_line{
