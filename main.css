@@ -22,7 +22,7 @@ header{
 }
 .top_addr{
 	padding-left: 60px;
-	background-image: url(img/top_map.png);
+	background-image: url(img/map.png);
 	background-repeat: no-repeat;
 	background-position: center left;
 }
