@@ -6,8 +6,17 @@ body {
 }
 header{
 	background-image: url(img/bg.jpg);
+	background-position: top center;
 	min-height: 668px;
 	background-repeat: repeat-x;
+	position: relative;
+}
+.top_line{
+	min-height: 97px;
+	-webkit-box-shadow: rgba(255,255,255,.4)0 0 0 1;
+	box-shadow: rgba(255,255,255,.4) 0 0 0 1; 
+	position: absolute;
+	top: 0;
 }
 
 .clearfix:after {
