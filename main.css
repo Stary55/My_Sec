@@ -29,6 +29,7 @@ header a{
 	top: 0;
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.6);
+	padding: 22px 0;
 }
 .top_addr{
 	font-family: "BebasBold";
