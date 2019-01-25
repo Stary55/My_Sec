@@ -17,6 +17,7 @@ header a{
 	text-decoration: none;
 }
 .top_addr a{
+	font-family: BebasBold;
 	font-style: 21px;
 	border-bottom: #fff dashed 1px;
 } 
