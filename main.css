@@ -26,6 +26,11 @@ header{
 	background-repeat: no-repeat;
 	background-position: center left;
 }
+.top_addr strong{
+	display: block;
+	text-transform: uppercase;
+	color: #d12f22;
+}
 
 .clearfix:after {
 	content:'';
