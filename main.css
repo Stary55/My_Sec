@@ -28,11 +28,12 @@ header{
 	background-position: center left;
 }
 .top_addr strong{
-	padding-top: 40px;
+	
 	display: block;
 	text-transform: uppercase;
 	color: #d12f22;
 	font-weight: normal;
+	font-size: 31px;
 }
 
 .clearfix:after {
