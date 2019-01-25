@@ -20,6 +20,9 @@ header{
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.6);
 }
+.top_addr{
+	padding-left: 60px;
+}
 
 .clearfix:after {
 	content:'';
