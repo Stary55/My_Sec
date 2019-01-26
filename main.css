@@ -74,7 +74,7 @@ div {
 	box-sizing: border-box;
 }
 
-header {
+headers {
 	background: url(../img/first-bg.jpg) no-repeat center top / cover;
 	
 	height: 100vh;
