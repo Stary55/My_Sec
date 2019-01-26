@@ -56,6 +56,12 @@ header a{
 .top_line .logo a:hover{
 	border-bottom: none;
 }
+.logo_wrap{
+	position: relative; 
+}
+.top_line .logo{
+	position: absolute;
+}
 
 .clearfix:after {
 	content:'';
@@ -68,7 +74,7 @@ div {
 	box-sizing: border-box;
 }
 
-headers {
+header {
 	background: url(../img/first-bg.jpg) no-repeat center top / cover;
 	
 	height: 100vh;
