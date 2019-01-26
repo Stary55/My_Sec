@@ -17,9 +17,11 @@ header a{
 	text-decoration: none;
 }
 .top_line a{
-
 	font-style: 21px;
 	border-bottom: #fff dashed 1px;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
 } 
 .top_line a:hover{
 	border-bottom: transparent dashed 1px;
@@ -36,20 +38,17 @@ header a{
 }
 .top_addr{
 	font-family: "BebasBold";
-	width: 300px;
-	margin-left: 60px;
 	padding-left: 50px;
 	margin-top: 24px;
 	background-image: url(img/map.png);
 	background-repeat: no-repeat;
 	background-position: center left;
 	line-height: 26px; 
-	float: left;
+	
 }
 .top_addr strong{
 	
 	display: block;
-
 	text-transform: uppercase;
 	color: #d12f22;
 	font-weight: normal;
@@ -68,9 +67,7 @@ header a{
    position: relative;
 }
 .top_line .ta_right{
-	float: right;
-	margin-right: -70px;
-	margin-top: 32px;
+	
 }
 .top_line .ta_right span{
 	color: white;
