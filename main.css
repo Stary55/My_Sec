@@ -30,8 +30,6 @@ header a{
 	min-height: 97px;
 	-webkit-box-shadow: rgba(255,255,255,.3)0 0 0 1px;
 	box-shadow: rgba(255,255,255,.3) 0 0 0 1px; 
-	position: absolute;
-	top: 0;
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.6);
 	padding: 22px 0;
@@ -39,10 +37,10 @@ header a{
 .top_addr{
 	font-family: "BebasBold";
 	padding-left: 50px;
-	margin-top: 24px;
+	margin-top: 10px;
 	background-image: url(img/map.png);
 	background-repeat: no-repeat;
-	background-position: center left;
+	background-position: left top;
 	line-height: 26px; 
 	
 }
@@ -54,23 +52,32 @@ header a{
 	font-weight: normal;
 	font-size: 31px;
 }
-.top_line .logo {
+.top_line .logo{
 	border-bottom: none;
-	padding-left: 140px;
-	position: absolute;
-	margin-top: 14px;
+    position: absolute;
+    margin-top: -8px;
 }
 .top_line .logo a:hover{
-	border-bottom: none;
+	border-bottom: none; 
 }
 .logo_wrap{
-   position: relative;
+	position: relative;
+	width: 206px;
+	margin: auto;
 }
-.top_line .ta_right{
-	
+.ta_right{
+	background-image: none;
+	text-align: right;
+	padding-left: 0px;
+	margin-right: 0px;
 }
-.top_line .ta_right span{
-	color: white;
+.ta_right span{
+	color: #fff;
 }
-
+header h1{
+	font-size: 41px;
+	text-align: center;
+	color: #fff;
+	margin-top: 70px;
+}
 
