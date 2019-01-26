@@ -50,10 +50,17 @@ header a{
 	font-weight: normal;
 	font-size: 31px;
 }
-.top_line  .logo {
+.top_line .logo {
 	border-bottom: none;
+	padding-left: 550px;
+	position: absolute; 
+	margin-top: -32px;
 }
 .top_line .logo a:hover{
 	border-bottom: none;
 }
+.logo_wrap{
+	position: relative;
+}
+
 
