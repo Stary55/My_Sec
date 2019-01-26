@@ -50,6 +50,12 @@ header a{
 	font-weight: normal;
 	font-size: 31px;
 }
+.top_line  .logo {
+	border-bottom: none;
+}
+.top_line .logo a:hover{
+	border-bottom: none;
+}
 
 .clearfix:after {
 	content:'';
