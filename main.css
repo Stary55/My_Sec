@@ -91,7 +91,27 @@ header h1{
 	padding: 0 10px;
 	font-size: 17px;
 	border-bottom: #AC160A solid 4px;
+
 }
-header .button{
-	margin-right: : 20px;
+.button:hover{
+	background-color:#e64437;
+}
+.button:actve{
+
+	background-color:#b81609;
+}
+
+.st_button{
+	line-height: 20px;
+	padding-top:5px;
+	text-align: left;
+	padding-left: 60px;
+	background-image: url(img/camera.png);
+	background-repeat: no-repeat;
+	background-position: 7px 10px;
+}
+.buttons_top{
+	position: absolute;
+	width:100%;
+	bottom: 30px;
 }
