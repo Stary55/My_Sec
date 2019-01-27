@@ -118,4 +118,6 @@ header h1{
 .top_menu{
 	height: 68px;
 	background-color: #242424;
+	-webkit-box-shadow: rgba(255,255,255,.3)0 0 0 1px;
+	box-shadow: rgba(255,255,255,.3) 0 0 0 1px;
 }
