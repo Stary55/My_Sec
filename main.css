@@ -120,4 +120,25 @@ header h1{
 	background-color: #242424;
 	-webkit-box-shadow: rgba(255,255,255,.3)0 0 0 1px;
 	box-shadow: rgba(255,255,255,.3) 0 0 0 1px;
+	font-family: BebasRegular;
+	text-transform: uppercase;
+}
+.top_menu ul{
+	margin: 0;
+	list-style-type: none;
+}
+.top_menu a{
+	color: #fff;
+	font-size: 20px;
+	padding: 0 26px;
+	display: block;
+  line-height: 68px;
+	border-left: #3B3B3B solid 1px;
+}
+.top_menu li{
+	display: inline-block;
+}
+.top_menu li.active a,
+.top_menu li:hover{
+	background-color: #050505;
 }
