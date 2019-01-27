@@ -10,7 +10,7 @@ header{
 	min-height: 668px;
 	background-repeat: repeat-x;
 	position: relative;
-	font-family: "BebasRegular"; 
+	font-family: "BebasRegular";
 }
 header a{
 	color: #fff;
@@ -22,14 +22,14 @@ header a{
 	-webkit-transition: all .25s;
 	-o-transition: all .25s;
 	transition: all .25s;
-} 
+}
 .top_line a:hover{
 	border-bottom: transparent dashed 1px;
 }
 .top_line{
 	min-height: 97px;
 	-webkit-box-shadow: rgba(255,255,255,.3)0 0 0 1px;
-	box-shadow: rgba(255,255,255,.3) 0 0 0 1px; 
+	box-shadow: rgba(255,255,255,.3) 0 0 0 1px;
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.6);
 	padding: 22px 0;
@@ -41,11 +41,11 @@ header a{
 	background-image: url(img/map.png);
 	background-repeat: no-repeat;
 	background-position: left top;
-	line-height: 26px; 
-	
+	line-height: 26px;
+
 }
 .top_addr strong{
-	
+
 	display: block;
 	text-transform: uppercase;
 	color: #d12f22;
@@ -58,7 +58,7 @@ header a{
     margin-top: -8px;
 }
 .top_line .logo a:hover{
-	border-bottom: none; 
+	border-bottom: none;
 }
 .logo_wrap{
 	position: relative;
@@ -82,4 +82,16 @@ header h1{
 	text-shadow: 0 3px rgba(0,0,0,0.55);
 	font-family: BebasRegular;
 }
-
+.button{
+	display: inline-block;
+	background-color: #d12f22;
+	height: 50px;
+	vertical-align: middle;
+	line-height: 50px;
+	padding: 0 10px;
+	font-size: 17px;
+	border-bottom: #AC160A solid 4px;
+}
+header .button{
+	margin-right: : 20px;
+}
