@@ -161,3 +161,32 @@ header h1{
 .top_menu li:nth-child(6) a{
 		background-position: 6px -356px;
 }
+.wantary {
+	float: right;
+	color: #fff;
+	cursor: default;
+	font-size: 15px;
+	border: 3px solid #fff;
+	border-radius: 3px;
+	padding: 3px 5px;;
+	margin:8px;
+	line-height: 16px;
+}
+.w_right,
+.w_left{
+	display: inline-block;
+}
+.w_right{
+	font-family:"RobotoRegular";
+	font-size: 15px;
+	}
+.w_left{
+	font-family: "BebasBold";
+	font-size:20px;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+.w_left span{
+	font-size: 32px;
+	font-family:"BebasBold";
+}
