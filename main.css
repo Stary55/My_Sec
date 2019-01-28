@@ -146,18 +146,18 @@ header h1{
 .top_menu li:hover{
 	background-color: #050505;
 }
-.top_menu li:nth-child(2)a{
-		background-position: -65px 20px;
+.top_menu li:nth-child(2) a{
+		background-position: 15px -56px;
 }
-.top_menu li:nth-child(3)a{
-		background-position: -150px 20px;
+.top_menu li:nth-child(3) a{
+		background-position: 17px -123px;
 }
-.top_menu li:nth-child(4)a{
-		background-position: 20px 20px;
+.top_menu li:nth-child(4) a{
+		background-position: 8px -194px;
 }
-.top_menu li:nth-child(5)a{
-		background-position: 20px 20px;
+.top_menu li:nth-child(5) a{
+		background-position: 11px -274px;
 }
-.top_menu li:nth-child(6)a{
-		background-position: 20px 20px;
+.top_menu li:nth-child(6) a{
+		background-position: 6px -356px;
 }
