@@ -239,6 +239,11 @@ section h1{
 	width: 158px;
 	display: inline-block;
 	text-align: center;
+
+}
+ .active,
+.mc_item_wrap:hover{
+	background-color: #2A2A2A;
 }
 .mc_item_wrap a{
 	color: #fff;
@@ -261,10 +266,11 @@ section h1{
 	background-repeat: no-repeat;
 	margin: 10px auto;
 }
-.mc_item a: hover h4,
-.mc_item_wrap .active h4
-{
+
+a:active, a:hover {
+	outline: 0;
 	text-decoration: underline;
+	
 }
 .mc_item_wrap:nth-child(1) span{
 	background-position: 27px 8px;
