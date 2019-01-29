@@ -251,6 +251,7 @@ section h1{
 .mc_wrap{
 	text-align: center;
 	padding:0px;
+	position: relative;
 }
 .mc_item h4{
 	font-family: "BebasRegular";
@@ -305,4 +306,22 @@ a:active, a:hover {
 .mc_item_wrap:hover .mc_toggle{
 	background-color: #353535;
 	background-position: -82px 3px;
+}
+.mc_item_wrap.active> ul{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 20px;
+	background-color: #353535;
+
+}
+.mc_item_wrap.active> ul li{
+	float:left;
+	font-family: "BebasRegular";
+}
+.mc_item_wrap.active> ul li a{
+padding: 0 20px;
 }
