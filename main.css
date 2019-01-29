@@ -192,5 +192,96 @@ header h1{
 }
 .main_cats{
 	background-color: #191919;
-	padding: 50px 0 32px;
+	padding: 40px 0 32px;
+}
+.main_cats h1{
+	text-transform: uppercase;
+	color: #c9c9c9;
+	font-family:"BebasRegular";
+	font-size: 40px;
+	text-align: center;
+}
+.main_cats h1 strong{
+	color: #fff;
+}
+section h1{
+	position: relative;
+}
+.main_cats h1 span{
+	color: #d12f22;
+}
+.s_black h1::before{
+	content:" ";
+	position: absolute;
+	height: 20px;
+	width: 50px;
+	background-image: url(img/lines.png);
+	top:18px;
+	left: 290px;
+}
+.s_black h1::after{
+	content:" ";
+	position: absolute;
+	height: 20px;
+	width: 50px;
+	background-image: url(img/lines.png);
+	background-position: -50px 0;
+	top:18px;
+	left: 798px;
+}
+.mc_item{
+	border: #353535 solid 1px;
+	border-radius: 2px;
+
+}
+.mc_item_wrap{
+	margin-left: 28px;
+	width: 158px;
+	display: inline-block;
+	text-align: center;
+}
+.mc_item_wrap a{
+	color: #fff;
+}
+.mc_wrap{
+	text-align: center;
+	padding:0px;
+}
+.mc_item h4{
+	font-family: "BebasRegular";
+	font-weight: normal;
+	font-size: 20px;
+	margin-top: 10px;
+}
+.mc_item span{
+	display: block;
+	width: 130px;
+	height: 85px;
+	background-image: url(img/cats.png);
+	background-repeat: no-repeat;
+	margin: 10px auto;
+}
+.mc_item a: hover h4,
+.mc_item_wrap .active h4
+{
+	text-decoration: underline;
+}
+.mc_item_wrap:nth-child(1) span{
+	background-position: 27px 8px;
+	margin-left: 0px;
+}
+.mc_item_wrap:nth-child(2) span{
+	background-position: -103px 7px;
+}
+.mc_item_wrap:nth-child(3) span{
+	background-position: -224px 7px;
+}
+.mc_item_wrap:nth-child(4) span{
+	background-position:-352px 7px;
+}
+.mc_item_wrap:nth-child(5) span{
+	background-position: -479px 11px;
+}
+.mc_item_wrap:nth-child(6) span{
+	background-position: -622px 12px;
 }
