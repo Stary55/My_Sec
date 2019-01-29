@@ -190,3 +190,7 @@ header h1{
 	font-size: 32px;
 	font-family:"BebasBold";
 }
+.main_cats{
+	background-color: #191919;
+	padding: 50px 0 32px;
+}
