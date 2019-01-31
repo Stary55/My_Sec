@@ -195,7 +195,8 @@ header h1{
 	background-color: #191919;
 	padding: 40px 0 32px;
 }
-.main_cats h1{
+.main_cats h1,
+article h2{
 	text-transform: uppercase;
 	color: #c9c9c9;
 	font-family:"BebasRegular";
@@ -205,7 +206,8 @@ header h1{
 .main_cats h1 strong{
 	color: #fff;
 }
-section h1{
+section h1,
+article h2{
 	position: relative;
 }
 .main_cats h1 span{
@@ -342,4 +344,27 @@ text-decoration: none;
 .mc_button_w{
 	text-align: center;
 	margin-top: 30px;
+}
+article.content{
+	background-color: #E9E9E9;
+	text-align: center;
+}
+article h2::before{
+	content:" ";
+	position: absolute;
+	height: 20px;
+	width: 50px;
+	background-image: url(img/pol3.png);
+	top:18px;
+	left: 290px;
+}
+article h2::after{
+	content:" ";
+	position: absolute;
+	height: 20px;
+	width: 50px;
+	background-image: url(img/pol3.png);
+	background-position: -50px 0;
+	top:18px;
+	left: 798px;
 }
