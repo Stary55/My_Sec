@@ -91,7 +91,8 @@ header h1{
 	padding: 0 10px;
 	font-size: 17px;
 	border-bottom: #AC160A solid 4px;
-
+	color: #fff;
+	font-family: "BebasBold";
 }
 .button:hover{
 	background-color:#e64437;
@@ -241,7 +242,8 @@ section h1{
 	text-align: center;
 
 }
- .active,
+
+.active,
 .mc_item_wrap:hover{
 	background-color: #2A2A2A;
 }
@@ -337,3 +339,7 @@ text-decoration: underline;
 text-decoration: none;
 }
 
+.mc_button_w{
+	text-align: center;
+	margin-top: 30px;
+}
